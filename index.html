@@ -1,0 +1,431 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Банный комплекс «Карелия» — русская баня на дровах в Йошкар-Оле</title>
+  <meta name="description" content="Банный комплекс «Карелия» в Йошкар-Оле: русские бани на дровах с домиками, подогреваемый чан, мангал и казан. Круглосуточно. Советская, 47. Тел. +7 (962) 588-35-35">
+  <meta name="theme-color" content="#15100c">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Банный комплекс «Карелия» — Йошкар-Ола">
+  <meta property="og:description" content="Русские бани на дровах с домиками, горячий чан, мангал. Круглосуточно, без выходных.">
+  <meta property="og:image" content="images/hero.jpg">
+  <link rel="icon" href="images/logo.jpg">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "HealthAndBeautyBusiness",
+    "name": "Банный комплекс «Карелия»",
+    "image": "images/steam-room.jpg",
+    "telephone": ["+79625883535", "+78362353535"],
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Советская ул., 47",
+      "addressLocality": "Йошкар-Ола",
+      "postalCode": "424004",
+      "addressCountry": "RU"
+    },
+    "geo": { "@type": "GeoCoordinates", "latitude": 56.646603, "longitude": 47.907123 },
+    "openingHours": "Mo-Su 00:00-24:00",
+    "priceRange": "1000–2200 ₽/час",
+    "sameAs": ["https://vk.ru/kareliya12"],
+    "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.7", "ratingCount": "313" }
+  }
+  </script>
+</head>
+<body>
+
+  <!-- Прелоадер -->
+  <div class="preloader" id="preloader" aria-hidden="true">
+    <div class="preloader__inner">
+      <span class="preloader__word">КАРЕЛИЯ</span>
+      <span class="preloader__bar"><i></i></span>
+    </div>
+  </div>
+
+  <!-- Шапка -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#top" class="brand" aria-label="Банный комплекс Карелия — на главную">КАРЕЛИЯ</a>
+
+      <nav class="nav" aria-label="Основное меню">
+        <a href="#about">О бане</a>
+        <a href="#houses">Дома</a>
+        <a href="#prices">Цены</a>
+        <a href="#gallery">Фото</a>
+        <a href="#reviews">Отзывы</a>
+        <a href="#contacts">Контакты</a>
+      </nav>
+
+      <div class="header__actions">
+        <a class="header__phone" href="tel:+79625883535">+7 (962) 588-35-35</a>
+        <a class="btn btn--outline btn--sm" href="tel:+79625883535">Забронировать</a>
+        <button class="burger" id="burger" aria-label="Открыть меню" aria-expanded="false"><span></span><span></span></button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Мобильное меню -->
+  <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+    <nav class="mobile-menu__nav">
+      <a href="#about">О бане</a>
+      <a href="#houses">Дома</a>
+      <a href="#prices">Цены</a>
+      <a href="#calc">Калькулятор</a>
+      <a href="#gallery">Фото</a>
+      <a href="#reviews">Отзывы</a>
+      <a href="#contacts">Контакты</a>
+    </nav>
+    <div class="mobile-menu__foot">
+      <a href="tel:+79625883535">+7 (962) 588-35-35</a>
+      <span>Советская, 47 · круглосуточно</span>
+    </div>
+  </div>
+
+  <main id="top">
+
+    <!-- HERO -->
+    <section class="hero" id="hero">
+      <div class="hero__bg"><img src="images/hero.jpg" alt="" fetchpriority="high"></div>
+      <div class="hero__shade"></div>
+      <canvas class="hero__steam" id="steam" aria-hidden="true"></canvas>
+
+      <div class="container hero__inner">
+        <div class="hero__top">
+          <h1 class="hero__title" data-hero>Русская баня<br>на дровах</h1>
+          <p class="hero__sub" data-hero>дома с парной, камином и спальнями,<br>горячий чан, мангал и казан — в стоимости</p>
+          <span class="pill pill--beige" data-hero><i class="dot"></i> Открыто круглосуточно</span>
+        </div>
+
+        <div class="hero__bottom">
+          <div class="hero__word-wrap">
+            <div class="hero__word" aria-label="Карелия">
+              <span>К</span><span>А</span><span>Р</span><span>Е</span><span>Л</span><span>И</span><span>Я</span>
+            </div>
+          </div>
+
+          <a class="hero-card" href="tel:+79625883535" data-hero>
+            <span class="hero-card__text">Забронируйте дом с&nbsp;баней&nbsp;— подберём удобное время и&nbsp;ответим на&nbsp;вопросы</span>
+            <span class="hero-card__foot">
+              <span>+7 (962) 588-35-35</span>
+              <span class="circle-arrow"><svg viewBox="0 0 24 24"><path d="M7 17L17 7M9 7h8v8"/></svg></span>
+            </span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Цифры -->
+    <section class="stats">
+      <div class="container stats__grid">
+        <div class="stat" data-reveal>
+          <b><span data-count="24">0</span>/7</b><span>работаем без выходных</span>
+        </div>
+        <div class="stat" data-reveal>
+          <b><span data-count="2">0</span></b><span>дома с русской баней</span>
+        </div>
+        <div class="stat" data-reveal>
+          <b><span data-count="10">0</span></b><span>гостей вмещает большой дом</span>
+        </div>
+        <div class="stat" data-reveal>
+          <b><span data-count="4.7" data-decimals="1">0</span></b><span>средний рейтинг на картах</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- О БАНЕ -->
+    <section class="about section" id="about">
+      <div class="container">
+        <div class="about__head">
+          <div>
+            <p class="label" data-reveal>О нас</p>
+            <h2 class="h2" data-split>Баня «Карелия»&nbsp;— это больше, чем просто парная</h2>
+          </div>
+          <div class="about__text" data-reveal>
+            <p>Уютная облагороженная территория, русские бани на&nbsp;дровах с&nbsp;домиками, зона отдыха с&nbsp;камином и&nbsp;спальнями. Дом арендуется целиком&nbsp;— никаких соседей, только ваша компания.</p>
+            <a href="#prices" class="btn btn--terra magnetic">Смотреть цены <svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          </div>
+        </div>
+
+        <figure class="panorama" data-reveal>
+          <img src="images/territory.jpg" alt="Территория банного комплекса Карелия: беседки и зона отдыха" loading="lazy" data-parallax>
+          <figcaption><span class="pill pill--glass">Советская, 47 · своя парковка</span></figcaption>
+        </figure>
+
+        <div class="features">
+          <article class="feature" data-reveal>
+            <h3>Баня на дровах</h3>
+            <p>Живой жар печи и мягкий пар с берёзовым веником.</p>
+          </article>
+          <article class="feature" data-reveal>
+            <h3>Подогреваемый чан</h3>
+            <p>Горячая купель под открытым небом — наша новинка.</p>
+          </article>
+          <article class="feature" data-reveal>
+            <h3>Мангал и казан</h3>
+            <p>Мангал, шампуры, казан всегда включены в стоимость.</p>
+          </article>
+          <article class="feature" data-reveal>
+            <h3>Камин и спальни</h3>
+            <p>Зона отдыха с диванами и ТВ, можно остаться на ночь.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ДОМА -->
+    <section class="houses section" id="houses">
+      <div class="container">
+        <div class="row-head">
+          <h2 class="h2" data-split>Выберите свой дом</h2>
+          <a href="tel:+79625883535" class="btn btn--terra magnetic" data-reveal>Узнать свободное время <svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        </div>
+
+        <div class="cards">
+          <article class="card" data-reveal>
+            <div class="card__media"><img src="images/lounge.jpg" alt="Зона отдыха с камином в Большом доме" loading="lazy"><span class="tag">Хит</span></div>
+            <div class="card__body">
+              <div>
+                <h3>Большой дом</h3>
+                <p>до 8–10 гостей · от <b data-house-min="big">1 000</b> ₽/час</p>
+              </div>
+              <a href="#prices" class="card__arrow" data-select-house="big" aria-label="Цены на Большой дом"><svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+            </div>
+          </article>
+
+          <article class="card" data-reveal>
+            <div class="card__media"><img src="images/steam-room-2.jpg" alt="Парная в Малом доме" loading="lazy"><span class="tag">Уютный</span></div>
+            <div class="card__body">
+              <div>
+                <h3>Малый дом</h3>
+                <p>до 4–6 гостей · от <b data-house-min="small">1 000</b> ₽/час</p>
+              </div>
+              <a href="#prices" class="card__arrow" data-select-house="small" aria-label="Цены на Малый дом"><svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+            </div>
+          </article>
+
+          <article class="card" data-reveal>
+            <div class="card__media"><img src="images/terrace.jpg" alt="Терраса с большим деревянным столом" loading="lazy"><span class="tag">Включено</span></div>
+            <div class="card__body">
+              <div>
+                <h3>Терраса и мангал</h3>
+                <p>шампуры, казан, беседка — без доплат</p>
+              </div>
+              <a href="#gallery" class="card__arrow" aria-label="Смотреть фото"><svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ЦЕНЫ -->
+    <section class="prices section section--dark" id="prices">
+      <div class="prices__glow" aria-hidden="true"></div>
+      <div class="container">
+        <div class="row-head">
+          <div>
+            <p class="label" data-reveal>Прайс-лист</p>
+            <h2 class="h2" data-split>Цены за час аренды</h2>
+          </div>
+          <div class="seg" role="tablist" aria-label="Выбор дома" data-reveal>
+            <span class="seg__pill" aria-hidden="true"></span>
+            <button role="tab" class="seg__btn is-active" data-house="big" aria-selected="true">Большой дом</button>
+            <button role="tab" class="seg__btn" data-house="small" aria-selected="false">Малый дом</button>
+          </div>
+        </div>
+
+        <div class="now-line" data-reveal><i class="dot"></i><span id="nowText">Сейчас действует тариф…</span></div>
+
+        <div class="price-table" id="priceTable" data-reveal>
+          <noscript><p>Большой дом: ПН–ЧТ 1000/1800/2000 ₽, ПТ–СБ 1400/2000/2200 ₽, ВС 1200/2000/2200 ₽. Малый дом: ПН–ЧТ 1000/1600/1800 ₽, ПТ–СБ 1400/1800/2000 ₽, ВС 1200/1800/2000 ₽.</p></noscript>
+        </div>
+
+        <div class="price-extras" id="priceExtras"></div>
+        <p class="price-note" data-reveal>Цены указаны за&nbsp;1&nbsp;час аренды всего дома с&nbsp;баней. Свободное время и&nbsp;детали уточняйте по&nbsp;телефону.</p>
+      </div>
+    </section>
+
+    <!-- КАЛЬКУЛЯТОР -->
+    <section class="calc section" id="calc">
+      <div class="container calc__grid">
+        <div class="calc__intro">
+          <p class="label" data-reveal>Калькулятор</p>
+          <h2 class="h2" data-split>Посчитайте стоимость отдыха</h2>
+          <p class="lead" data-reveal>Выберите дом, день и&nbsp;время&nbsp;— калькулятор сам учтёт смену тарифов и&nbsp;подскажет, если выгоднее взять дом на&nbsp;сутки.</p>
+          <figure class="calc__photo" data-reveal><img src="images/stove.jpg" alt="Печь-каменка на дровах" loading="lazy" data-parallax></figure>
+        </div>
+
+        <form class="calc__card" id="calcForm" data-reveal onsubmit="return false">
+          <div class="field">
+            <span class="field__label">Дом</span>
+            <div class="chips">
+              <label><input type="radio" name="house" value="big" checked><span>Большой</span></label>
+              <label><input type="radio" name="house" value="small"><span>Малый</span></label>
+            </div>
+          </div>
+
+          <div class="field">
+            <span class="field__label">День недели</span>
+            <div class="chips chips--days">
+              <label><input type="radio" name="day" value="1"><span>Пн</span></label>
+              <label><input type="radio" name="day" value="2"><span>Вт</span></label>
+              <label><input type="radio" name="day" value="3"><span>Ср</span></label>
+              <label><input type="radio" name="day" value="4"><span>Чт</span></label>
+              <label><input type="radio" name="day" value="5"><span>Пт</span></label>
+              <label><input type="radio" name="day" value="6"><span>Сб</span></label>
+              <label><input type="radio" name="day" value="0"><span>Вс</span></label>
+            </div>
+          </div>
+
+          <div class="field-row">
+            <label class="field">
+              <span class="field__label">Начало</span>
+              <select name="start" id="calcStart"></select>
+            </label>
+            <label class="field">
+              <span class="field__label">Часов: <b id="hoursOut">3</b></span>
+              <input type="range" name="hours" id="calcHours" min="1" max="24" value="3">
+            </label>
+          </div>
+
+          <div class="checks">
+            <label class="check"><input type="checkbox" name="chan"><span class="check__box"></span>Подогреваемый чан <small>+2&nbsp;000&nbsp;₽</small></label>
+            <label class="check"><input type="checkbox" name="bday"><span class="check__box"></span>День рождения <small>−10%</small></label>
+          </div>
+
+          <div class="calc__result">
+            <div>
+              <span class="calc__label">Примерная стоимость</span>
+              <div class="calc__total"><span id="calcTotal">0</span>&nbsp;₽</div>
+              <div class="calc__hint" id="calcHint"></div>
+            </div>
+            <a class="btn btn--terra magnetic" href="tel:+79625883535">Забронировать</a>
+          </div>
+          <ul class="calc__breakdown" id="calcBreakdown"></ul>
+        </form>
+      </div>
+    </section>
+
+    <!-- ГАЛЕРЕЯ -->
+    <section class="gallery section--dark" id="gallery">
+      <div class="container gallery__head">
+        <div>
+          <p class="label" data-reveal>Фотографии</p>
+          <h2 class="h2" data-split>Загляните внутрь</h2>
+        </div>
+        <div class="gallery__controls" data-reveal>
+          <span class="gallery__count"><b id="galleryNum">01</b> / <span id="galleryTotal">10</span></span>
+          <button class="gallery__btn" id="galleryPrev" aria-label="Предыдущие фото"><svg viewBox="0 0 24 24"><path d="M19 12H5M11 6l-6 6 6 6"/></svg></button>
+          <button class="gallery__btn" id="galleryNext" aria-label="Следующие фото"><svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+        </div>
+      </div>
+      <div class="gallery__track" id="galleryTrack" data-reveal tabindex="0" aria-label="Фотографии комплекса, листайте влево и вправо"></div>
+      <div class="container gallery__foot">
+        <div class="gallery__progress" id="galleryProgress" role="slider" aria-label="Прокрутка галереи" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" tabindex="0"><span class="gallery__thumb" id="galleryThumb"></span></div>
+        <span class="gallery__hint">Листайте, перетаскивайте или нажмите на фото</span>
+      </div>
+    </section>
+
+    <!-- ОТЗЫВЫ -->
+    <section class="reviews section" id="reviews">
+      <div class="container">
+        <div class="row-head">
+          <div>
+            <p class="label" data-reveal>Отзывы</p>
+            <h2 class="h2" data-split>Нам доверяют гости</h2>
+          </div>
+          <p class="lead lead--narrow" data-reveal>Средняя оценка <b>4,7</b> по&nbsp;<b>313</b> оценкам на&nbsp;трёх картах. Почитайте отзывы&nbsp;— и&nbsp;оставьте свой после визита.</p>
+        </div>
+        <div class="reviews__grid" id="reviewsGrid"></div>
+      </div>
+    </section>
+
+    <!-- КОНТАКТЫ -->
+    <section class="contacts section" id="contacts">
+      <div class="container contacts__grid">
+        <div class="contacts__info">
+          <p class="label" data-reveal>Контакты</p>
+          <h2 class="h2" data-split>Ждём вас в любое время</h2>
+
+          <div class="clock" data-reveal>
+            <div class="clock__face" aria-hidden="true">
+              <span class="clock__h" id="clockH"></span><span class="clock__m" id="clockM"></span><span class="clock__c"></span>
+            </div>
+            <div>
+              <div class="clock__status"><i class="dot"></i> Открыто сейчас</div>
+              <div class="clock__text">Круглосуточно, без выходных · <span id="clockNow"></span></div>
+            </div>
+          </div>
+
+          <ul class="contact-list" data-reveal>
+            <li><span>Адрес</span><b>Йошкар-Ола, Советская ул., 47</b></li>
+            <li><span>Телефоны</span><b><a href="tel:+79625883535">+7 (962) 588-35-35</a><br><a href="tel:+78362353535">+7 (8362) 35-35-35</a></b></li>
+            <li><span>Режим</span><b>Круглосуточно, 24/7</b></li>
+          </ul>
+
+          <div class="messengers" id="messengers" data-reveal></div>
+
+          <div class="routes" data-reveal>
+            <span>Маршрут:</span>
+            <a href="https://yandex.ru/maps/?rtext=~56.646603%2C47.907123&rtt=auto" target="_blank" rel="noopener">Яндекс</a>
+            <a href="https://2gis.ru/yoshkarola/firm/9852153466234630" target="_blank" rel="noopener">2ГИС</a>
+            <a href="https://www.google.com/maps/dir/?api=1&destination=56.646603,47.907123" target="_blank" rel="noopener">Google</a>
+          </div>
+        </div>
+
+        <div class="contacts__map" data-reveal>
+          <iframe title="Банный комплекс Карелия на карте" src="https://yandex.ru/map-widget/v1/?ll=47.907123%2C56.646603&z=16&oid=151728409402&ol=biz" loading="lazy" allowfullscreen></iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer section--dark">
+    <div class="container">
+      <div class="footer__top">
+        <div class="footer__brand">
+          <span class="footer__eyebrow">Банный комплекс</span>
+          <div class="footer__word" aria-label="Карелия"><span>К</span><span>а</span><span>р</span><span>е</span><span>л</span><span>и</span><span>я</span></div>
+          <span class="footer__tagline">Русская баня на дровах · Йошкар-Ола, Советская, 47</span>
+        </div>
+        <a class="footer__cta magnetic" href="tel:+79625883535">
+          <span>Забронировать<small>+7 (962) 588-35-35</small></span>
+          <span class="circle-arrow"><svg viewBox="0 0 24 24"><path d="M7 17L17 7M9 7h8v8"/></svg></span>
+        </a>
+      </div>
+      <div class="footer__inner">
+        <span>Круглосуточно, без выходных</span>
+        <nav class="footer__nav">
+          <a href="#prices">Цены</a><a href="#reviews">Отзывы</a><a href="#contacts">Контакты</a><a href="https://vk.ru/kareliya12" target="_blank" rel="noopener">ВКонтакте</a>
+        </nav>
+      </div>
+      <div class="footer__copy">© <span id="year"></span> Банный комплекс «Карелия». Цены на сайте носят информационный характер.</div>
+    </div>
+  </footer>
+
+  <!-- Плавающая кнопка звонка (мобильные) -->
+  <a class="fab" href="tel:+79625883535" aria-label="Позвонить">
+    <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><path fill="currentColor" d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.6a1 1 0 0 1-.25 1z"/></svg>
+  </a>
+
+  <!-- Лайтбокс -->
+  <div class="lightbox" id="lightbox" aria-hidden="true" role="dialog" aria-label="Просмотр фото">
+    <button class="lightbox__close" aria-label="Закрыть">×</button>
+    <button class="lightbox__nav lightbox__nav--prev" aria-label="Предыдущее фото">‹</button>
+    <img alt="">
+    <button class="lightbox__nav lightbox__nav--next" aria-label="Следующее фото">›</button>
+    <div class="lightbox__caption"></div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
